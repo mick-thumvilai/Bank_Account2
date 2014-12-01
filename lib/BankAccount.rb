@@ -10,7 +10,7 @@ class BankAccount
 	end
 
 	def withdraw(cash)
-		@balance -= cash
+		@balance += cash
 		@transaction += 1
 		return @balance
 	end
